@@ -560,6 +560,11 @@ nav#dropdown {
     border-radius: 0 0 4px 4px;
     border-right: 1px solid #f0f0f0;
 }
+
+.class-area .single-blog-text {
+    height: 15rem;
+}
+
 /*----------------------------------------*/
 /*  8. Service Area
 /*----------------------------------------*/
@@ -656,7 +661,7 @@ nav#dropdown {
 
 .single-service-text {
     width: 28rem;
-    height: 100%;
+    height: auto;
 }
 
 /*----------------------------------------*/
@@ -676,6 +681,10 @@ nav#dropdown {
 .blog-area {
     background-color: #fef6e5;
     padding: 5rem 0;
+}
+
+.blog-area .single-blog-text {
+    height: 8rem;
 }
 
 .single-blog-item {
@@ -727,10 +736,14 @@ nav#dropdown {
 .single-blog-content {
     background: #ffffff;
     border-radius: 0 0 4px 4px;
+    /* height: 19rem; */
 }
 
 .single-blog-text {
     padding: 1rem 1.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
