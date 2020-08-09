@@ -993,6 +993,53 @@ input[name="name"], input[name="phone-number"] {
 }
 
 
+/* Grade 4 French Immersion */
+.section-title h4{
+    padding-top:2rem
+}
+
+.top-lessons, .reading-lessons, .all-lessons{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.single-lesson-item {
+    box-shadow: 0 0 20px -5px rgba(0,0,0,0.1), 0 0 20px -5px rgba(0,0,0,0.1);
+    border-radius:12px;
+    height: 100%;   
+}
+
+
+.single-lesson-icon{
+    border-top-right-radius: 12px;
+    border-top-left-radius:12px;
+    background-color: #00c3cb;
+    padding: 2rem 0rem; 
+}
+
+.single-lesson-icon i{
+    color:white;
+    font-size: 3rem;
+}
+
+.single-lesson-desc{
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius:12px;
+    background-color:#fef6e5 ;
+    padding:2rem 0rem;
+}
+.single-lesson-desc a{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:rgb(87, 97, 104)
+}
+
+.single-lesson-desc a:hover, .single-lesson-desc a:focus{
+    border-bottom: 2px solid rgb(87, 97, 104);
+    
+}
+
 /* Media Queries */
 
 
@@ -1059,6 +1106,7 @@ input[name="name"], input[name="phone-number"] {
         margin-bottom: 1rem;
     }
 }
+
 
 
 
