@@ -1001,6 +1001,11 @@ audio {
 
 
 /* Grade 4 French Immersion */
+.courses-area {
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+}
 .section-title h4{
     padding-top:2rem
 }
@@ -1047,8 +1052,61 @@ audio {
     
 }
 
-/* Media Queries */
+/* grade 4 course general styling*/
+.single-course-area {
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+}
+.lesson-outline{
+    border: 5px double #1CB3B9;
+    padding:1rem 0;
+}
+.part-one, .part-two, .part-three, .part-four, .part-five,.curriculum-connection{
+    padding:2rem;
+    margin:1rem 0;
+}
+.part-one{
+    background-color: #f5b22065;
 
+}
+.part-two{
+    background-color:#43b4d960;
+}
+.part-three{
+    background-color:#ff726267 ;
+}
+.part-four{
+    background-color:#92c52460;
+}
+.part-five{
+    background-color:#fef6e5;
+}
+
+table{
+
+    min-width: 20rem;
+}
+
+tr {
+    padding:1rem;
+    border-top: 2px solid #f5b220;
+    border-bottom: 2px solid #f5b220;
+  }
+th{
+    background-color: #ffcc5fce;
+    color:#f7eed7
+}
+td,th{
+    border:2px solid #f5b220
+}
+.curriculum-connection a{
+    text-decoration:underline;
+}
+
+
+
+/* Media Queries */
 
 @media (max-width: 1100px) {
     .service-area {
