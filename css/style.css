@@ -50,6 +50,11 @@ ul{
     margin: 0;
     padding: 0
 }
+figcaption {
+    text-align: center;
+    padding: .5rem;
+    background-color: #fff;
+}
 .clear{clear:both}
 ::-moz-selection {background: #b3d4fc; text-shadow: none}
 ::selection {background: #b3d4fc; text-shadow: none}
@@ -1001,6 +1006,11 @@ audio {
 
 
 /* Grade 4 French Immersion */
+.courses-area {
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+}
 .section-title h4{
     padding-top:2rem
 }
@@ -1047,8 +1057,159 @@ audio {
     
 }
 
-/* Media Queries */
+/* grade 4 course general styling*/
+.single-course-area {
+    padding: 6rem 0;
+    text-align: center;
+    position: relative;
+}
+.lesson-outline{
+    border: 5px double #1CB3B9;
+    padding: 4rem;
+}
+.part-one, .part-two, .part-three, .part-four, .part-five,.curriculum-connection{
+    padding: 5rem;
+    margin: 1rem 0;
+}
+.part-one{
+    background-color: #f5b22065;
+    /* text-align: left; */
+}
+.part-two{
+    background-color:#43b4d960;
+}
+.part-three{
+    background-color:#ff726267 ;
+}
+.part-four{
+    background-color:#92c52460;
+}
+.part-five{
+    background-color:#fef6e5;
+}
 
+table{
+
+    min-width: 20rem;
+}
+
+tr {
+    padding:1rem;
+    border-top: 2px solid #f5b220;
+    border-bottom: 2px solid #f5b220;
+  }
+th{
+    background-color: #ffcc5fce;
+    color:#f7eed7
+}
+td,th{
+    border:2px solid #f5b220
+}
+.curriculum-connection a{
+    text-decoration:underline;
+}
+
+
+
+
+.rocks-minerals-container {
+    text-align: left;
+}
+
+.rocks-minerals-container a {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #43B4D9;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+}
+
+.rocks-minerals-container > *:not(:last-child) {
+    margin-bottom: 6rem;
+}
+
+.divider {
+    margin: 4rem 0;
+    border-top: 5px dashed;
+}
+
+.part-one h3, .part-two h3 {
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.part-one .divider {
+    border-top-color: #f5b220;
+}
+
+.part-two .divider {
+    border-top-color: #43B4D9;
+}
+
+.part-one-rocks {
+    text-align: left;
+}
+
+.part-one-rocks h4, .part-one-minerals h4 {
+    text-align: center;
+    margin-bottom: 1.2rem;
+    text-decoration: underline;
+}
+
+.part-one-minerals p {
+    margin-left: 3rem;
+}
+
+.part-one-rocks .rocks-minerals-desc {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.rocks-minerals-desc img, .rocks-minerals-desc figcaption {
+    border: 5px solid white;
+    width: 400px;
+}
+
+.rocks-minerals-outline {
+    text-align: left;
+    /* padding: 1rem; */
+    background-color: #fef6e5;
+    border: none;
+}
+
+.rocks-minerals-desc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sedimentary-desc {
+    flex-direction: row-reverse;
+}
+
+.rocks-minerals-desc p, .rocks-minerals-desc li {
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.rocks-minerals-img {
+    text-align: center;
+}
+
+.rocks-minerals-img h4 {
+    margin-bottom: 1.2rem;
+    text-decoration: underline;
+}
+
+.rocks-minerals-text {
+    width: 50%;
+}
+
+
+/* Media Queries */
 
 @media (max-width: 1100px) {
     .service-area {
