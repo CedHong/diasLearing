@@ -1057,12 +1057,8 @@ audio {
     
 }
 
-/* grade 4 course general styling*/
-.single-course-area {
-    padding: 6rem 0;
-    text-align: center;
-    position: relative;
-}
+/* course general styling*/
+
 .lesson-outline{
     border: 5px double #1CB3B9;
     padding: 4rem;
@@ -1088,8 +1084,18 @@ audio {
     background-color:#fef6e5;
 }
 
-table{
+.part-one h3, .part-two h3, .part-three h3, .part-four h3, .part-five h3 {
+    margin-bottom: 3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+/* gr4-french courses styling */
+.space-lesson-container, .pets-lesson-container, .pizza-lesson-container, .dogs-lesson-container{
+    text-align: left;
+}
 
+/* vocabulary table styling */
+table{
     min-width: 20rem;
 }
 
@@ -1133,12 +1139,7 @@ td,th{
     border-top: 5px dashed;
 }
 
-.part-one h3, .part-two h3 {
-    margin-bottom: 3rem;
-    text-decoration: underline;
-    text-align: center;
 
-}
 
 .part-one .divider {
     border-top-color: #f5b220;
