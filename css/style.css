@@ -554,7 +554,7 @@ nav#dropdown {
 /*----------------------------------------*/
 /*  6. Class Area
 /*----------------------------------------*/
-.class-area {
+.class-area, .beige-area {
     background-color: #fef6e5;
     padding: 6rem 0;
 }
@@ -1206,6 +1206,10 @@ td,th{
 
 .rocks-minerals-text {
     width: 50%;
+}
+
+.beige-area div {
+    text-align: center;
 }
 
 
