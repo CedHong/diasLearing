@@ -1099,7 +1099,31 @@ audio {
     text-align: center;
     margin-bottom: 3rem;
 }
-
+/* gr6-french courses styling */
+.parrots-lesson-container{
+    text-align: left;
+}
+.parrot-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 3rem;
+}
+.parrot-info img{
+    width:40%;
+    border:5px dotted #f7eed7 ;
+}
+.parrot-info ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+    list-style: none;
+}
+.parrot-info ol p{
+    font-size:1.4rem;
+    text-decoration:underline
+}
 /* vocabulary table styling */
 .vocab-tables-container{
     display: flex;
@@ -1107,7 +1131,7 @@ audio {
     flex-wrap: wrap;
 }
 
-.pets-lesson-container table{
+.pets-lesson-container table, .parrots-lesson-container table{
     margin:0 auto;
 }
 
@@ -1117,16 +1141,19 @@ table{
 }
 
 tr {
-    padding:1rem;
     border-top: 2px solid #f5b220;
     border-bottom: 2px solid #f5b220;
   }
+
 th{
     background-color: #ffcc5fce;
     color:#f7eed7
 }
 td,th{
     border:2px solid #f5b220
+}
+td{
+    padding:0 1rem;
 }
 .curriculum-connection a{
     text-decoration:underline;
