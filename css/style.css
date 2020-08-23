@@ -1171,12 +1171,18 @@ td{
     text-align: left;
 }
 
-.rocks-minerals-container a {
+.rocks-minerals-container a,
+.lights-lesson .section-title-wrapper a {
     font-size: 1.2rem;
     color: #fff;
     background-color: #43B4D9;
     padding: 1rem 1.5rem;
     border-radius: 5px;
+}
+
+.lights-lesson .section-title-wrapper a {
+    padding: 1rem 2.5rem;
+    background-color: #1bb4b9;
 }
 
 .rocks-minerals-container > *:not(:last-child) {
