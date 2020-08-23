@@ -554,9 +554,13 @@ nav#dropdown {
 /*----------------------------------------*/
 /*  6. Class Area
 /*----------------------------------------*/
-.class-area {
+.class-area, .beige-area {
     background-color: #fef6e5;
     padding: 6rem 0;
+}
+
+.beige-area {
+    text-align: center;
 }
 
 .single-class-text {
@@ -1062,6 +1066,7 @@ audio {
 .lesson-outline{
     border: 5px double #1CB3B9;
     padding: 4rem;
+    text-align: left;
 }
 .part-one, .part-two, .part-three, .part-four, .part-five,.curriculum-connection{
     padding: 5rem;
@@ -1251,6 +1256,10 @@ td{
 
 .rocks-minerals-text {
     width: 50%;
+}
+
+.beige-area .lesson-outline {
+    text-align: left;
 }
 
 
