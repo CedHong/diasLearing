@@ -559,6 +559,10 @@ nav#dropdown {
     padding: 6rem 0;
 }
 
+.beige-area {
+    text-align: center;
+}
+
 .single-class-text {
     border-bottom: 1px solid #f0f0f0;
     border-left: 1px solid #f0f0f0;
@@ -1066,6 +1070,7 @@ audio {
 .lesson-outline{
     border: 5px double #1CB3B9;
     padding: 4rem;
+    text-align: left;
 }
 .part-one, .part-two, .part-three, .part-four, .part-five,.curriculum-connection{
     padding: 5rem;
@@ -1208,8 +1213,8 @@ td,th{
     width: 50%;
 }
 
-.beige-area div {
-    text-align: center;
+.beige-area .lesson-outline {
+    text-align: left;
 }
 
 
