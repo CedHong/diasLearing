@@ -1080,7 +1080,7 @@ audio {
     background-color:#43b4d960;
 }
 .part-three{
-    background-color:#ff726267 ;
+    background-color:#ff72625e ;
 }
 .part-four{
     background-color:#92c52460;
@@ -1095,14 +1095,26 @@ audio {
     text-align: center;
 }
 
+
 /* gr4-french courses styling */
-.space-lesson-container, .pets-lesson-container, .pizza-lesson-container, .dogs-lesson-container{
+.space-lesson-container, .pets-lesson-container, .pizza-lesson-container, .dogs-lesson-container, .school-lesson-container{
     text-align: left;
 }
 
 .eng-subtitle{
     text-align: center;
     margin-bottom: 3rem;
+}
+.cross-word-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cross-word-container p{
+    padding-right:2rem;
+}
+/* gr4 shool lesson */
+.school-lesson-container strong{
+    font-weight: 600;
 }
 /* gr6-french courses styling */
 .parrots-lesson-container{
@@ -1136,19 +1148,14 @@ audio {
     flex-wrap: wrap;
 }
 
-.pets-lesson-container table, .parrots-lesson-container table{
+.pets-lesson-container table, .parrots-lesson-container table, .school-lesson-container table{
     margin:0 auto;
 }
 
-table{
+table, .part-two-table, .part-three-table{
     min-width: 20rem;
     text-align: center;
 }
-
-tr {
-    border-top: 2px solid #f5b220;
-    border-bottom: 2px solid #f5b220;
-  }
 
 th{
     background-color: #ffcc5fce;
@@ -1157,8 +1164,17 @@ th{
 td,th{
     border:2px solid #f5b220
 }
+
 td{
     padding:0 1rem;
+}
+
+.part-two-table td{
+    border: 2px solid #43b4d9
+}
+.part-three-table td{
+    border: 2px solid #ff7262
+    
 }
 .curriculum-connection a{
     text-decoration:underline;
