@@ -1268,6 +1268,22 @@ td{
     text-align: left;
 }
 
+/* simple machines */
+
+.lesson-topics {
+    text-align: center;
+}
+
+.lesson-topics a {
+    font-size: 1.5rem;
+    color: #777777;
+}
+
+/* gears */
+
+.gears-img {
+    justify-content: space-around;
+}
 
 /* Media Queries */
 
