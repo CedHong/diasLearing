@@ -1285,6 +1285,12 @@ td{
     justify-content: space-around;
 }
 
+/* levers */
+
+.levers-img figure {
+    margin-right: 3rem;
+}
+
 /* Media Queries */
 
 @media (max-width: 1100px) {
