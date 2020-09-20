@@ -1309,7 +1309,7 @@ td{
 
 /* ABOUT US PAGE */
 .about-us-container{
-    padding:6rem 0;
+    padding:5rem 0;
 }
 .about-us-intro{
     padding-bottom: 4rem;
@@ -1325,6 +1325,41 @@ td{
     border-radius: 50%;
     width:70%;
     padding-bottom: 1rem;
+}
+
+/* Ten tips for parents */
+.ten-tips-container{
+    padding:5rem 0;
+}
+.tip-container{
+    margin:1rem 0;
+}
+.tip-title-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.tip-icon i {
+    display: table-cell;
+    vertical-align: middle;
+}
+.tip-icon{
+    background: #f5b120 none repeat scroll 0 0;
+    border: 1px solid #f5b120;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-table;
+    font-size: 25px !important;
+    height: 60px !important;
+    text-align: center;
+    width: 60px !important;
+    margin-right: 1rem;
+}
+.tip-title h4{
+    color:#f5b120;
+    font-weight:600;
+    text-transform: capitalize;
 }
 
 /* Media Queries */
