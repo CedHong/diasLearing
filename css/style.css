@@ -983,6 +983,11 @@ audio {
     margin: 0 auto;
     background: #F0F3F4;
 }
+/* for ebooks linked in lessons */
+.ebook-container{
+    width:19rem;
+    margin: 0 auto;
+}
 
 .single-ebook-desc {
     background: #F0F3F4;
@@ -1148,7 +1153,7 @@ audio {
     flex-wrap: wrap;
 }
 
-.pets-lesson-container table, .parrots-lesson-container table, .school-lesson-container table{
+.pets-lesson-container table, .parrots-lesson-container table, .school-lesson-container table, .dogs-lesson-container table{
     margin:0 auto;
 }
 
