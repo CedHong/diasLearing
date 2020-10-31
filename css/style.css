@@ -1079,7 +1079,6 @@ audio {
 }
 .part-one{
     background-color: #f5b22065;
-    /* text-align: left; */
 }
 .part-two{
     background-color:#43b4d960;
@@ -1183,8 +1182,29 @@ td{
 }
 .curriculum-connection a{
     text-decoration:underline;
+}    
+
+/* lesson page ebook styling */
+.part-two .single-ebook-item,
+.part-three .single-ebook-item,
+.part-four .single-ebook-item,
+.part-five .single-ebook-item{
+    display:inline-block
 }
 
+/* art page */
+.video-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:2rem;
+}
+
+
+.video-container iframe{
+    margin-bottom: 1rem;
+    border: 5px solid #f5b220 ;
+}
 
 /* science page */
 .rocks-minerals-container {
