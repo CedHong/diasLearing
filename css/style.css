@@ -1185,11 +1185,17 @@ td{
 }    
 
 /* lesson page ebook styling */
-.part-two .single-ebook-item,
-.part-three .single-ebook-item,
-.part-four .single-ebook-item,
+.part-one .single-ebook-item,.part-two .single-ebook-item,
+.part-three .single-ebook-item,.part-four .single-ebook-item,
 .part-five .single-ebook-item{
     display:inline-block
+}
+
+/* lesson page audtio styling */
+.part-one audio,.part-two audio,
+.part-three audio,.part-four audio,
+.part-five audio{
+    margin-bottom: 1rem;
 }
 
 /* art page */
@@ -1200,10 +1206,27 @@ td{
     margin-top:2rem;
 }
 
-
 .video-container iframe{
     margin-bottom: 1rem;
     border: 5px solid #f5b220 ;
+}
+
+.art-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.art-image-container img{
+    margin-right:0.5rem;
+    margin-bottom: 0.5rem;
+    width:25rem;
+}
+.part-three .art-image-container img{
+    border: 5px solid #ff7262;
+}
+.part-four .art-image-container img{
+    border: 5px solid#93c524;
 }
 
 /* science page */
