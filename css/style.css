@@ -196,7 +196,7 @@ body {
 }
 .social-links > a {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 20px;
     margin-right: 22px;
 }
 .social-links > a:hover, .header-login-register li:hover a {color: #F5B120}
