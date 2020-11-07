@@ -976,16 +976,14 @@ audio {
 }
 
 .single-ebook-item {
-    /* padding: 10px 0; */
-    /* width: 15rem; */
-    /* background: pink; */
     box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
     margin: 0 auto;
     background: #F0F3F4;
 }
+
 /* for ebooks linked in lessons */
 .ebook-container{
-    width:19rem;
+    width: 19rem;
     margin: 0 auto;
 }
 
@@ -998,7 +996,7 @@ audio {
 }
 
 .single-ebook-item p {
-    margin: 0;
+    margin-top: 1rem;
     font-family: 'Roboto Slab';
     font-size: 1rem;
     
